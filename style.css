@@ -1,0 +1,215 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0% auto;
+}
+
+/* menu start */
+
+.nav-logo-search{
+    background-color: #F5F0DA;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 1px 7px black;
+}
+
+.logo{
+    width: 160px;
+    height: 160px;
+    margin-left: 50px;
+}
+
+.button-search{
+    background-color: #F5F0DA;
+    width: 250px;
+    height: 32px;
+    border-radius: 10px;
+    background-image: url("image/loupe.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-right: 80px;
+    padding: 2px;
+}
+
+.BARBERSHOP{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
+    color: #115f72;
+    margin-left: 50px;
+}
+
+.nav1{
+    background-color: #F5F0DA;
+    height: 80px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav2{
+    margin-left: 90px;
+}
+
+.menu-link{
+    text-decoration: none;
+    color: #000;
+    font-size: 40px;
+    padding-right: 80px;
+
+}
+
+.moustache{
+    margin-right: 150px;
+}
+
+.bandeau{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: no-repeat center/100% url("image/bandeau.jpg");
+    height: 506px;
+    box-shadow: inset 0em 1em 2em black;
+}
+
+.button-rdv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #115f72;
+    color: white;
+    font-size: 28px;
+    text-decoration: none;
+    border: none;
+    box-shadow: 1px 6px 8px 6px#000;
+    width: 380px;
+    height: 70px;
+}
+
+.presentation{
+    margin-left: 70px;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.text-presentation{
+    font-size: 40px;
+    margin: 40px;
+}
+
+.nos-services{
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 70px;
+    text-align: center;
+    align-items: center;
+
+}
+
+.title-presentation {
+    font-size: 50px;
+    display: flex;
+    flex-direction: row; 
+}
+
+.title-presentation:after{
+    content: "";
+    border-bottom: 3px solid #000;
+    margin-bottom: 9px;
+    width: 500px;
+}
+
+.title-service {
+    font-size: 50px;
+    display: flex;
+    flex-direction: row; 
+}
+
+.title-service:after{
+    content: "";
+    border-bottom: 3px solid #000;
+    margin-bottom: 9px;
+    width: 500px;
+}
+
+.container-items{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-top: 30px;
+    margin-bottom: 180px;
+}
+
+.item-rasage{
+    width: 380px;
+    padding-top: 7px;
+    border: 5px solid darkgoldenrod;
+}
+
+.item-taille{
+    width: 380px;
+    padding-top: 7px;
+    border: 5px solid darkgoldenrod;
+}
+
+.item-entretien{
+    width: 380px;
+    padding-top: 7px;
+    border: 5px solid darkgoldenrod;
+}
+
+.text-service{
+    font-size: 30px;
+    margin: 10px;
+    margin-bottom: 40px;
+
+}
+
+.button-tarif{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    background-color: #115f72;
+    width: 100px;
+    height: 30px;
+    margin-right: 8px;
+    margin-bottom: 10px;
+    color: white;
+    border: none;
+    box-shadow: 0px 2px 4px 2px black;
+}
+
+.align-tarif{
+    text-align: right;
+}
+
+.order-1{
+    order: 2;
+}
+
+.order-2{
+    order: 3;
+}
+
+.order-3{
+    order: 1;
+}
+
+
+/* menu end */
+
+.container-footer{
+    background-color: #F5F0DA;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.copyright{
+    background-color: #115f72;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
